@@ -7,7 +7,6 @@ const App = () => {
   return (
     <>
       <Header />
-      <Navigation />
         <main className="mx-3">
           <Outlet />
         </main>
