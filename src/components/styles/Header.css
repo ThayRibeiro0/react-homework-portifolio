@@ -12,6 +12,7 @@ header {
     background-size: cover; 
     background-position: center;
     font-family: 'Roboto', sans-serif;
+    z-index: 1;
 }
 
 h1 {
@@ -24,3 +25,7 @@ h1 {
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+    padding-top: 18px;
+  }
