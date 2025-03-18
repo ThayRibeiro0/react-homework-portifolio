@@ -14,14 +14,51 @@ nav ul li {
     display: inline;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
+/* menu toggle */
+/* Container do Navigation */
+.nav-container {
+    display: flex;
+    align-items: center;
 }
 
-nav ul li a:hover {
-    color: rgb(154, 252, 235);
+/* Lista de links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    -webkit-text-stroke: 0.5px black; 
+    -webkit-text-fill-color: #ffffff;
+}
+
+.nav-links li a:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid #62ff00;
+    box-shadow: -3px -3px #62ff00;
+    border-radius: 10%;
+}
+
+/* Menu Hamburguer */
+.menu-toggle {
+    cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
 }
 

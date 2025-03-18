@@ -5,17 +5,23 @@ const About = () => {
     return ( 
     <section className='about-section'>
         <h2>About Me</h2>
-        <p>I am a Software Engineer passionate about creating scalable and high-performance web applications. 
-        With a strong foundation in JavaScript (ES6+), TypeScript, React.js, and Node.js, I specialize in developing
-        interactive front-end experiences and robust back-end solutions. I also have experience working with relational
-        and non-relational databases, microservices, Docker, and CI/CD pipelines. My career journey has been diverse, 
-        giving me a unique perspective and adaptability. I have worked as an au pair, a lawyer, a logistics coordinator,
-        a facilities operator, a cleaner, a banking sector, a sales, an administration, and even a customer service. 
-        These roles have strengthened my problem-solving skills, resilience, and ability to work in fast-paced environments,
-        all of which I now apply in software development. Currently, I am honing my technical expertise through the UCI Bootcamp,
-        where I work on projects involving RESTful APIs with Express.js and PostgreSQL, front-end applications using React and Vite,
-        and best coding practices for building efficient, maintainable systems. I am now seeking opportunities where I can
-        leverage my technical skills and diverse professional background to contribute to impactful projects in the tech industry.</p>
+        <img src="/src/assets/images/avatar.jpeg" alt="avatar" className='avatar'/>
+        <p>
+            I am a <span className="highlight">Software Engineer</span> and a <span className="highlight">digital warrior</span>, forging scalable and high-performance web applications 
+            with the precision of a battle-hardened strategist. My expertise lies in JavaScript (ES6+), TypeScript, 
+            React.js, and Node.js, crafting both engaging front-end experiences and robust back-end solutions. I 
+            navigate through the intricate landscape of technology, mastering relational and non-relational databases,
+            microservices, Docker, and CI/CD pipelines—tools that arm me for any challenge ahead. Much like a 
+            warrior traversing an enigmatic forest, my career has taken me through diverse paths, each shaping my 
+            resilience and adaptability. I have walked the worlds of law, logistics, customer service, administration,
+            and even caregiving, all of which sharpened my ability to solve problems under pressure, adapt quickly,
+            and thrive in fast-paced environments. Now, as I hone my technical expertise at the UCI Bootcamp, 
+            I am refining my craft through projects that involve RESTful APIs with Express.js and PostgreSQL, 
+            front-end applications using React and Vite, and best coding practices to build efficient, maintainable
+            systems. I seek new challenges where I can wield my technical skills, problem-solving mindset, and
+            warrior spirit to craft impactful solutions in the tech industry. The journey is long, the path is 
+            unknown, but I embrace the challenge—one line of code at a time.
+        </p>
     </section>
     );
 }
