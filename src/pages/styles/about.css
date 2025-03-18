@@ -1,52 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* src/pages/About.css */
 /* basic css */
 .about-section {
-    padding: 50px;
-    text-align: justify;
-    margin: 0 auto;
-    max-width: 1400px;
-    max-height: auto;
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .about-section h2 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #333;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .about-section p {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #666;
-    line-height: 1.6;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .about-section a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .about-section a:hover {
-    text-decoration: underline;
-  }
- 
+  padding: 50px;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 1400px;
+  max-height: auto;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-section p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-section a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
+}
+
 /* avatar used on the about section */
-  .avatar {
-    width: 100px;  
-    height: 100px; 
-    border-radius: 50%;
-    object-fit: cover; 
-    display: block;
-    margin-top: 10px;
-    border: 4px solid transparent; /* Torna a borda "invisível" */
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-top: 10px;
+  border: 4px solid transparent; /* Torna a borda "invisível" */
 }
 
 /* span with highlight */
@@ -59,23 +59,23 @@
 /* span with highlight */
 @keyframes fadeIn {
   from {
-      opacity: 0;
-      transform: translateY(30px);
+    opacity: 0;
+    transform: translateY(30px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
 /* responsive */
 @media (max-width: 768px) {
   .about-container {
-      flex-direction: column;
-      text-align: center;
+    flex-direction: column;
+    text-align: center;
   }
   .avatar {
-      width: 150px;
-      height: 150px;
+    width: 150px;
+    height: 150px;
   }
 }

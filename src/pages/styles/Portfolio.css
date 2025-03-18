@@ -1,0 +1,77 @@
+/* General styles for the portfolio page. */
+.portfolio-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+/* General styles for the project cards. */
+.project-card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Picture from the project card. */
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+/* Container with the project information. */
+.project-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-info .Gihub {
+  width: 15px;
+  height: 15px;
+  margin: 0 auto;
+}
+
+.project-card:hover .project-image {
+  opacity: 0.3;
+}
+
+.project-card:hover .project-info {
+  opacity: 1;
+}
+
+/* Links styles. */
+.github-link,
+.live-demo-link {
+  display: block;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github-link:hover,
+.live-demo-link:hover {
+  text-decoration: underline;
+}
