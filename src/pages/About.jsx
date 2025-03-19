@@ -1,15 +1,12 @@
 import React from "react";
 import "./styles/about.css";
+import avatar from '../assets/images/avatar.png';
 
 const About = () => {
   return (
     <section className="about-section">
       <h2>About Me</h2>
-      <img
-        src="/assets/images/avatar.png"
-        alt="avatar"
-        className="avatar"
-      />
+      <img src={avatar} alt="avatar" className="avatar" />
       <p>
         I am a <span className="highlight">Software Engineer</span> and a{" "}
         <span className="highlight">digital warrior</span>, forging scalable and
