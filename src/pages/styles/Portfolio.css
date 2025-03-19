@@ -12,6 +12,10 @@
   gap: 20px;
 }
 
+.project h1 & p {
+  font-family: "Roboto", sans-serif;
+}
+
 /* General styles for the project cards. */
 .project-card {
   position: relative;
@@ -74,4 +78,30 @@
 .github-link:hover,
 .live-demo-link:hover {
   text-decoration: underline;
+}
+
+.project-info h3 {
+  position: relative;
+  display: inline-block;
+}
+
+.github-icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 100%; 
+  top: 10%;
+  margin-left: 10px; 
+}
+
+.project-info h3:hover .github-icon {
+  visibility: visible; /* Show the icon when hovering */
+}
+
+.github-link {
+  cursor: pointer;
+}
+
+.project-info h3:hover .github-link {
+  display: block; /* Show the GitHub link when hovering */
 }

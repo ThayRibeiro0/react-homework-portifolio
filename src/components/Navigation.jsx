@@ -3,13 +3,10 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const Navigation = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen] = useState(false);
 
   return (
     <nav className="nav-container">
-      <button className="my-toggle" onClick={() => setIsOpen(!isOpen)}>
-        <i className={isOpen ? "fas fa-times" : "fas fa-bars"}></i>
-      </button>
       <ul className={isOpen ? "nav-links show-nav" : "nav-links"}>
         <li>
           <Link to="/about">About</Link>

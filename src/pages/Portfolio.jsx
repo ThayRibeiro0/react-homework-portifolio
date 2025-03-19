@@ -1,7 +1,18 @@
 import React from "react";
 import "./styles/portfolio.css";
-import Helmet from "../assets/images/helmet.gif";
-import Gihub from "../assets/images/github.png";
+import analogcrono from "../assets/images/analogcrono.png";
+import countdown from "../assets/images/countdown1.png";
+import employeeTracker from "../assets/images/employee_tracker.png";
+import github from "../assets/images/github.png";
+import myWebsite from "../assets/images/my-new-website.png";
+import nodeReadme from "../assets/images/node-readme-generator.png";
+import pokemonApp from "../assets/images/pokemon_app.png";
+import pyGym from "../assets/images/PyGym.png";
+import quizReact from "../assets/images/Quiz-React.png";
+import stargazers from "../assets/images/stargazers.png";
+import vehicleConsoleApp from "../assets/images/vehicle-console-app.png";
+import Costs from "../assets/images/Costs.png";
+import calculator from "../assets/images/calculator.png";
 
 const Portfolio = () => {
   return (
@@ -10,226 +21,246 @@ const Portfolio = () => {
       <p>Check out some of the projects I've developed below!</p>
 
       <div className="projects">
-        {/* Projeto 1 */}
         <div className="project-card">
-          <img src={Helmet} alt="Greek Helmet" className="helmet" />
+          <img src={analogcrono} alt="Analog Crono" className="project-image" />
           <div className="project-info">
-            <h3>
-              Project1
-              <img src={Gihub} alt="Gihub" className="Gihub" />
-            </h3>
+            <h3>Analog Crono</h3>
             <p>ThayRibeiro0</p>
             <a
-              href="https://github.com/seu-usuario/projeto1"
+              href="https://github.com/ThayRibeiro0/analogcrono"
               target="_blank"
               rel="noopener noreferrer"
-              className="github-link"
             >
-              GitHub
-            </a>
-            <a
-              href="https://seu-usuario.github.io/projeto1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="live-demo-link"
-            >
-              Ver o projeto
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"
+              />
             </a>
           </div>
         </div>
 
-        {/* Projeto 2 */}
         <div className="project-card">
-          <img src={Helmet} alt="Greek Helmet" className="helmet" />
+          <img src={countdown} alt="Countdown" className="project-image" />
           <div className="project-info">
-            <h3>
-              Project1
-              <img src={Gihub} alt="Gihub" className="Gihub" />
-            </h3>
+            <h3>Countdown</h3>
             <p>ThayRibeiro0</p>
             <a
-              href="https://github.com/seu-usuario/projeto1"
+              href="https://github.com/ThayRibeiro0/countdown1"
               target="_blank"
               rel="noopener noreferrer"
-              className="github-link"
             >
-              GitHub
-            </a>
-            <a
-              href="https://seu-usuario.github.io/projeto1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="live-demo-link"
-            >
-              Ver o projeto
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"
+              />
             </a>
           </div>
         </div>
 
-        {/* Projeto 3 */}
         <div className="project-card">
-          <img src={Helmet} alt="Greek Helmet" className="helmet" />
+          <img
+            src={employeeTracker}
+            alt="Employee Tracker"
+            className="project-image"
+          />
           <div className="project-info">
-            <h3>
-              Project1
-              <img src={Gihub} alt="Gihub" className="Gihub" />
-            </h3>
+            <h3>Employee Tracker</h3>
             <p>ThayRibeiro0</p>
             <a
-              href="https://github.com/seu-usuario/projeto1"
+              href="https://github.com/ThayRibeiro0/employee_tracker"
               target="_blank"
               rel="noopener noreferrer"
-              className="github-link"
             >
-              GitHub
-            </a>
-            <a
-              href="https://seu-usuario.github.io/projeto1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="live-demo-link"
-            >
-              Ver o projeto
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"
+              />
             </a>
           </div>
         </div>
 
-        {/* Projeto 4 */}
         <div className="project-card">
-          <img src={Helmet} alt="Greek Helmet" className="helmet" />
+          <img src={myWebsite} alt="My Website" className="project-image" />
           <div className="project-info">
-            <h3>
-              Project1
-              <img src={Gihub} alt="Gihub" className="Gihub" />
-            </h3>
+            <h3>My Website</h3>
             <p>ThayRibeiro0</p>
             <a
-              href="https://github.com/seu-usuario/projeto1"
+              href="https://github.com/ThayRibeiro0/my-new-website"
               target="_blank"
               rel="noopener noreferrer"
-              className="github-link"
             >
-              GitHub
-            </a>
-            <a
-              href="https://seu-usuario.github.io/projeto1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="live-demo-link"
-            >
-              Ver o projeto
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"
+              />
             </a>
           </div>
         </div>
 
-        {/* Projeto 5 */}
         <div className="project-card">
-          <img src={Helmet} alt="Greek Helmet" className="helmet" />
+          <img
+            src={nodeReadme}
+            alt="Node README Generator"
+            className="project-image"
+          />
           <div className="project-info">
-            <h3>
-              Project1
-              <img src={Gihub} alt="Gihub" className="Gihub" />
-            </h3>
+            <h3>Node README Generator</h3>
             <p>ThayRibeiro0</p>
             <a
-              href="https://github.com/seu-usuario/projeto1"
+              href="https://github.com/ThayRibeiro0/node-readme-generator"
               target="_blank"
               rel="noopener noreferrer"
-              className="github-link"
             >
-              GitHub
-            </a>
-            <a
-              href="https://seu-usuario.github.io/projeto1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="live-demo-link"
-            >
-              Ver o projeto
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"              
+              />
             </a>
           </div>
         </div>
 
-        {/* Projeto 6 */}
         <div className="project-card">
-          <img src={Helmet} alt="Greek Helmet" className="helmet" />
+          <img src={pokemonApp} alt="Pokemon App" className="project-image" />
           <div className="project-info">
-            <h3>
-              Project1
-              <img src={Gihub} alt="Gihub" className="Gihub" />
-            </h3>
+            <h3>Pokemon App</h3>
             <p>ThayRibeiro0</p>
             <a
-              href="https://github.com/seu-usuario/projeto1"
+              href="https://github.com/ThayRibeiro0/pokemon_app"
               target="_blank"
               rel="noopener noreferrer"
-              className="github-link"
             >
-              GitHub
-            </a>
-            <a
-              href="https://seu-usuario.github.io/projeto1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="live-demo-link"
-            >
-              Ver o projeto
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"
+              />
             </a>
           </div>
         </div>
 
-        {/* Projeto 7 */}
         <div className="project-card">
-          <img src={Helmet} alt="Greek Helmet" className="helmet" />
+          <img src={pyGym} alt="PyGym" className="project-image" />
           <div className="project-info">
-            <h3>
-              Project1
-              <img src={Gihub} alt="Gihub" className="Gihub" />
-            </h3>
+            <h3>PyGym</h3>
             <p>ThayRibeiro0</p>
             <a
-              href="https://github.com/seu-usuario/projeto1"
+              href="https://github.com/ThayRibeiro0/pyGym"
               target="_blank"
               rel="noopener noreferrer"
-              className="github-link"
             >
-              GitHub
-            </a>
-            <a
-              href="https://seu-usuario.github.io/projeto1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="live-demo-link"
-            >
-              Ver o projeto
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"
+              />
             </a>
           </div>
         </div>
 
-        {/* Projeto 8 */}
         <div className="project-card">
-          <img src={Helmet} alt="Greek Helmet" className="helmet" />
+          <img src={quizReact} alt="Quiz React" className="project-image" />
           <div className="project-info">
-            <h3>
-              Project1
-              <img src={Gihub} alt="Gihub" className="Gihub" />
-            </h3>
+            <h3>Quiz React</h3>
             <p>ThayRibeiro0</p>
             <a
-              href="https://github.com/seu-usuario/projeto1"
+              href="https://github.com/ThayRibeiro0/quiz-react"
               target="_blank"
               rel="noopener noreferrer"
-              className="github-link"
             >
-              GitHub
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"
+              />
             </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img src={stargazers} alt="Stargazers" className="project-image" />
+          <div className="project-info">
+            <h3>Stargazers</h3>
+            <p>ThayRibeiro0</p>
             <a
-              href="https://seu-usuario.github.io/projeto1"
+              href="https://github.com/ThayRibeiro0/stargazers"
               target="_blank"
               rel="noopener noreferrer"
-              className="live-demo-link"
             >
-              Ver o projeto
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img
+            src={vehicleConsoleApp}
+            alt="Vehicle Console App"
+            className="project-image"
+          />
+          <div className="project-info">
+            <h3>Vehicle Console App</h3>
+            <p>ThayRibeiro0</p>
+            <a
+              href="https://github.com/ThayRibeiro0/vehicle-console-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img src={Costs} alt="Costs" className="project-image" />
+          <div className="project-info">
+            <h3>Costs</h3>
+            <p>ThayRibeiro0</p>
+            <a
+              href="https://github.com/ThayRibeiro0/costs"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"            
+              />
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img
+            src={calculator}
+            alt="Calculator"
+            className="project-image"
+          />
+          <div className="project-info">
+            <h3>Calculator</h3>
+            <p>ThayRibeiro0</p>
+            <a
+              href="https://github.com/ThayRibeiro0/calculator"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={github}
+                alt="GitHub"
+                className="github-icon"
+              />
             </a>
           </div>
         </div>
