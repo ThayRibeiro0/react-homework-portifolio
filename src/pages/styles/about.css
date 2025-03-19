@@ -14,6 +14,7 @@
 }
 
 .about-section h2 {
+  text-align: left;
   font-size: 32px;
   font-weight: bold;
   color: #333;
@@ -41,8 +42,8 @@
 
 /* avatar used on the about section */
 .avatar {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   display: flex;

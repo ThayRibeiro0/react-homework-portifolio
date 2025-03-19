@@ -1,0 +1,64 @@
+.resume-section {
+  padding: 20px;
+}
+
+.resume-section h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.resume-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.resume-section a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+/* 🖥️ Estilos para DESKTOP (MANTIDO COMO ESTÁ) */
+.proficiencies {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 0 auto; /* Garante centralização */
+  max-width: 900px; /* Mantém um tamanho máximo */
+}
+
+.proficiencies div {
+  width: 45%;
+}
+
+.proficiencies h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.proficiencies ul {
+  list-style: none;
+  padding: 0;
+}
+
+.proficiencies li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+/* 📱 Melhor responsividade para MOBILE */
+@media (max-width: 768px) {
+  .proficiencies {
+    flex-direction: column; /* Empilha os elementos */
+    align-items: center;
+    padding: 20px;
+    margin: 0 20px; /* Reduz margem lateral para evitar cortes */
+  }
+
+  .proficiencies div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px; /* Dá um pequeno espaço entre os blocos */
+  }
+}
