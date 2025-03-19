@@ -88,11 +88,11 @@ const Contact = () => {
           () => {
             alert("Message sent successfully!");
             setFormData({ name: "", email: "", message: "" });
-            setError({ name: "", email: "", message: "" }); // Limpa os erros após o envio
+            setError({ name: "", email: "", message: "" }); 
           },
           (err) => {
             alert("Failed to send message. Please try again later.");
-            console.error("Error sending email:", err); // Para detalhes do erro
+            console.error("Error sending email:", err); 
           }
         );
     }
