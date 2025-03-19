@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/portfolio.css";
+import "./styles/Portfolio.css";
 import analogcrono from "../assets/images/analogcrono.png";
 import countdown from "../assets/images/countdown1.png";
 import employeeTracker from "../assets/images/employee_tracker.png";
