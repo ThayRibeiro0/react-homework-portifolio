@@ -35,13 +35,7 @@ To run this project locally, follow these steps:
    ```sh
    npm run dev
    ```
-
-## 📸 Screenshot
-![Portfolio Preview](https://via.placeholder.com/800x400)
-
-## 🌐 Live Demo
-🔗 [Check it out on Netlify](#) *(Update this with the actual link)*
-
+   
 ## 📞 Contact
 Feel free to reach out:
 - **GitHub**: [@ThayRibeiro0](https://github.com/ThayRibeiro0)
