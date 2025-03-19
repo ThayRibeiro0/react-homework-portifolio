@@ -6,7 +6,7 @@ const About = () => {
     <section className="about-section">
       <h2>About Me</h2>
       <img
-        src="/src/assets/images/avatar.png"
+        src="/assets/images/avatar.png"
         alt="avatar"
         className="avatar"
       />
