@@ -42,12 +42,10 @@ The project follows best practices in modern web development, incorporating Reac
 ### 📸 Screenshots
 
 <div>
-
 - <img src="./src/assets/screenshots/Home.png" alt="homepage" width="300"/> 
 - <img src="./src/assets/screenshots/Projects.png" alt="about" width="300"/>
 - <img src="./src/assets/screenshots/Contact.png" alt="projects" width="300"/>
 - <img src="./src/assets/screenshots/Resume.png" alt="contact" width="300"/>
-
 </div>
 
 ### Getting Started
