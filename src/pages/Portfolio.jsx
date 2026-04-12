@@ -43,7 +43,7 @@ const projects = [
     highlight: "Built full CRUD functionality and business logic via CLI.",
     img: employeeTracker,
     url: "https://github.com/ThayRibeiro0/employee_tracker",
-    demo: "",
+    demo: "https://www.loom.com/share/ce09f4cf457e4614afc130339c3eefb8",
   },
   {
     title: "My Website",
