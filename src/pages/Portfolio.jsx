@@ -53,7 +53,7 @@ const projects = [
     highlight: "Designed responsive layout with intuitive navigation.",
     img: myWebsite,
     url: "https://github.com/ThayRibeiro0/my-new-website",
-    demo: "https://your-portfolio.com",
+    demo: "https://thayribeiro0.github.io/my-new-website/",
   },
   {
     title: "Node README Generator",
