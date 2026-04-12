@@ -1,107 +1,100 @@
-/* General styles for the portfolio page. */
-.portfolio-container {
+.portfolio {
   text-align: center;
-  padding: 50px 20px;
-}
-
-.projects {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  gap: 20px;
-}
-
-.project h1 & p {
+  padding: 10px;
   font-family: "Roboto", sans-serif;
 }
 
-/* General styles for the project cards. */
-.project-card {
-  position: relative;
-  width: 300px;
-  height: 200px;
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.nav-btn {
+  background: #111;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.card {
+  width: 720px;
+  border-radius: 18px;
   overflow: hidden;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: black;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   transition: transform 0.3s ease;
 }
 
-.project-card:hover {
-  transform: scale(1.05);
+.card:hover {
+  transform: translateY(-6px);
 }
 
-/* Picture from the project card. */
-.project-image {
+.card-img {
   width: 100%;
-  height: 100%;
+  height: 220px;
+  border-radius: 20px;
   object-fit: cover;
-  transition: opacity 0.3s ease;
 }
 
-/* Container with the project information. */
-.project-info {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.card p
+{
+  margin-bottom: 0;
 }
 
-.project-info .Gihub {
-  width: 15px;
-  height: 15px;
-  margin: 0 auto;
+.card-body {
+  padding: 18px;
 }
 
-.project-card:hover .project-image {
-  opacity: 0.3;
+.card-body h3 {
+  margin: 10px;
+  font-size: 20px;
 }
 
-.project-card:hover .project-info {
-  opacity: 1;
+.desc {
+  font-size: 14px;
+  color: #444;
 }
 
-/* Links styles. */
-.github-link,
-.live-demo-link {
-  display: inline-block;
-  margin-top: 10px;
-  color: inherit;
-  text-decoration: none;
-  font-weight: bold;
+.problem {
+  font-size: 13px;
+  color: #555;
 }
 
-.github-link:hover,
-.live-demo-link:hover {
+.tech {
+  font-size: 13px;
+  color: #666;
+}
+
+.highlight {
+  font-size: 13px;
+  color: #0a7a3d;
+}
+
+.card-img {
   cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.project-info h3 {
-  position: relative;
-  display: inline-block;
+.card-img:hover {
+  transform: scale(1.03);
+  filter: brightness(1.1);
 }
 
-.github-icon {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  left: 100%; 
-  top: 10%;
-  margin-left: 10px; 
-}
-
-.project-info h3:hover .github-icon {
-  visibility: visible; /* Show the icon when hovering */
-}
-
-.github-link {
+.card .github {
+  width: 32px;
+  margin-top: 20px;
   cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
-.project-info h3:hover .github-link {
-  display: block; /* Show the GitHub link when hovering */
+.card .github:hover {
+  transform: scale(1.15) rotate(5deg);
 }

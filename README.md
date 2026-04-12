@@ -58,7 +58,7 @@ To run this project locally, follow these steps:
    ```
 2. **Navigate to the project folder**
    ```sh
-   cd react-portfolio
+   cd react-homework-portifolio
    ```
 3. **Install dependencies**
    ```sh
