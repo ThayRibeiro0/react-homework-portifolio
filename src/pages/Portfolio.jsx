@@ -63,7 +63,7 @@ const projects = [
     highlight: "Automated file generation through command-line prompts.",
     img: nodeReadme,
     url: "https://github.com/ThayRibeiro0/node-readme-generator",
-    demo: "",
+    demo: "https://thayribeiro0.github.io/node-readme-generator/",
   },
   {
     title: "Pokemon App",
@@ -73,7 +73,7 @@ const projects = [
     highlight: "Integrated external API with dynamic rendering and state management.",
     img: pokemonApp,
     url: "https://github.com/ThayRibeiro0/pokemon_app",
-    demo: "",
+    demo: "https://thayribeiro0.github.io/pokemon_app/",
   },
   {
     title: "PyGym",
@@ -83,7 +83,7 @@ const projects = [
     highlight: "Implemented structured logic for workout tracking and control.",
     img: pyGym,
     url: "https://github.com/ThayRibeiro0/pyGym",
-    demo: "",
+    demo: "https://www.youtube.com/watch?v=UXD7D4jK85M",
   },
   {
     title: "Quiz React",
