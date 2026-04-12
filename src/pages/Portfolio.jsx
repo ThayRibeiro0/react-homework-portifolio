@@ -33,7 +33,7 @@ const projects = [
     highlight: "Handled date/time calculations with live DOM updates.",
     img: countdown,
     url: "https://github.com/ThayRibeiro0/countdown1",
-    demo: "",
+    demo: "https://thayribeiro0.github.io/countdown1/",
   },
   {
     title: "Employee Tracker",
