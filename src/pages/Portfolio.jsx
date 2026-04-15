@@ -93,7 +93,7 @@ const projects = [
     highlight: "Managed application state and user interactions efficiently.",
     img: quizReact,
     url: "https://github.com/ThayRibeiro0/quiz-react",
-    demo: "",
+    demo: "https://thayribeiro0.github.io/Quiz-React/",
   },
   {
     title: "Stargazers",
